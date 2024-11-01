@@ -1,0 +1,36 @@
+
+/* ---- button ---- */
+.button{display:inline-block;padding:0.5em 1.0em;background:#EEE;border:none;border-radius:7px;background-image:linear-gradient(to bottom,hsla(0,0%,0%,0),hsla(0,0%,0%,0.2));color:#222;font-family:sans-serif;font-size:16px;text-shadow:0 1px white;cursor:pointer;}
+.button:hover{background-color:#8CF;text-shadow:0 1px hsla(0,0%,100%,0.5);color:#222;}
+.button:active,
+.button.is-checked{background-color:#28F;}
+.button.is-checked{color:white;text-shadow:0 -1px hsla(0,0%,0%,0.8);}
+.button:active{box-shadow:inset 0 1px 10px hsla(0,0%,0%,0.8);}
+
+/* ---- button-group ---- */
+.button-group{margin-bottom:20px;}
+.button-group:after{content:'';display:block;clear:both;}
+.button-group .button{font-size:14px;line-height:26px;font-weight:600;border:1px solid #eaeaea;background:none;border-radius:5px;padding:7px 11px 5px;text-transform:uppercase;color:#9d9d9d;margin-right:6px;outline:none;-webkit-transition:0.5s all linear;-moz-transition:0.5s all linear;transition:0.5s all linear;text-shadow:none;}
+.button-group .button:hover{border-color:#a79976;color:#a79976;-webkit-box-shadow:0px 0px 5px 0px rgba(184,184,184,0.17);-moz-box-shadow:0px 0px 5px 0px rgba(184,184,184,0.17);box-shadow:0px 0px 5px 0px rgba(184,184,184,0.7);}
+.button-group .button.is_checked{border-color:#a79976;color:#a79976;-webkit-box-shadow:0px 0px 5px 0px rgba(184,184,184,0.17);-moz-box-shadow:0px 0px 5px 0px rgba(184,184,184,0.17);box-shadow:0px 0px 5px 0px rgba(184,184,184,0.7);}
+
+.md-gallery-content{padding:24px 86px 22px;background-color:rgba(32,38,50,0.85);opacity:0;-webkit-transition:0.5s all linear;-moz-transition:0.5s all linear;transition:0.5s all linear;overflow-x:hidden;text-align:center;cursor:pointer;position:relative;bottom:174px}
+.md-gallery-content h5{font-size:22px;line-height:28px;text-transform:uppercase;font-weight:600;color:#a79976;}
+.md-gallery-content p{font-size:16px;line-height:26px;font-weight:400;color:#9d9d9d;}
+.grid-item:hover .md-gallery-content{opacity: 1}
+/* ---- isotope ---- */
+.grid{width:100%;display:block;text-align:left;}
+.grid:after{content:'';display:block;clear:both;}
+.grid-item{padding:5px;}
+.grid-item .grid-item-inner {background: #ffffff;box-shadow: 0 0 60px 0 rgba(0,0,0,.04);margin-bottom: 10px;}
+.grid-item .grid-item-inner .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.grid-item .grid-item-inner .short-desc {
+    font-size: 16px;
+    line-height: 20px;
+}
+.wpbricks-portfolio-addons .grid-item-inner .meta-item {
+    padding: 10px 15px;
+}
